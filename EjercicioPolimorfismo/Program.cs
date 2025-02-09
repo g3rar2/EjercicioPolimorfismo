@@ -2,6 +2,8 @@
 
 List<Guerrero> gerrero=new List<Guerrero>();
 Guerrero guerrero2 = new Guerrero();
+Triangulo triangulo = new Triangulo();
+
 string opcion; 
 
 do
@@ -26,3 +28,5 @@ foreach (Guerrero egerrero in gerrero)
 {
     egerrero.Imprimir();
 }
+
+triangulo.imprimir();
